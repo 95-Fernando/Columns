@@ -1,0 +1,87 @@
+/*
+Colores
+    Background: #333
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+        body{
+            backgroud-color: #333
+        }
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: rgb(255 255 255 / .75);
+    overflow: hidden;
+    text-align: center;
+}
+.principal_content{
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+    font-size: 0;
+}
+section{
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    font-size: .9rem; 
+    text-align: left;
+}
+.sedan_section{
+    background-color: rgb(227, 136, 38);
+}
+.suvs_section{
+    background-color: rgb(0, 105, 112);
+}
+.luxury_section{
+    background-color: rgb(0, 66, 65);
+}
+.title{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.logos,
+.title,
+.text{
+    margin: 2.3rem;
+}
+.text{
+    width: 190px;
+}
+.buttom{
+    position: relative;
+    left:2.5rem;
+    top: 1.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    padding: .5em 2em;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.buttom_orange{
+    color: rgb(227, 136, 38);
+}
+.buttom_cyan{
+    color: rgb(0, 105, 112);
+}
+.buttom_darkcyan{
+    color: rgb(0, 66, 65);
+}
